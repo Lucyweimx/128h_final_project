@@ -39,10 +39,12 @@ String/Hex array transformation
 
 # future plan (after finals/during winter break)
 
-finish writing aes 
+Finish writing aes 
 
 ## References
 
-Reference for the understanding of AES (and some of the algorithms understanding, though not using them) https://zhuanlan.zhihu.com/p/78913397?utm_psn=1713621561817395201
+Reference for the understanding of AES: wikipedia and (this website showed some code in c++) https://zhuanlan.zhihu.com/p/78913397?utm_psn=1713621561817395201
 
-Reference for the SBOX and the RCON: https://github.com/TheAlgorithms/Rust/blob/master/src/ciphers/aes.rs (the algorithms of his/her code is hard to understand, so I didn't reference his code other than his SBOX and RCON and the idea to make plain/key into an [u8; 16] array)
+Reference for the SUBBYTEBOX and the RCON: https://github.com/TheAlgorithms/Rust/blob/master/src/ciphers/aes.rs (the algorithms of his/her code is hard to understand, so I didn't reference his code other than his SBOX and RCON and the idea to make plain/key into an [u8; 16] array)
+
+Reference for the rust writing: prairie learn, codes from the video of cs128H, and this website: https://doc.rust-lang.org/std/all.html
